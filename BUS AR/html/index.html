@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="icon" href="../img/busAR_icon.png" type="image/png">
+    <link rel="stylesheet" href="../css/myStyle.css">
+    <title>BUS AR - Transporte Inteligente</title>
+</head>
+<body id="app">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-optibus-green sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🚌 BUS AR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#problema">El Problema</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#solucion">Nuestra Solución</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#objetivo">Objetivo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center text-white d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-2">BUS AR</h1>
+            <p class="lead mb-4">Innovación en transporte público mediante una aplicación de Realidad Aumentada.</p>
+            <a href="#solucion" class="btn btn-optibus-gold btn-lg fw-bold">Conoce el proyecto</a>
+        </div>
+    </header>
+
+    <section id="problema" class="container py-5">
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6 mb-4">
+                <h2 class="fw-bold text-optibus-green">La Problemática</h2>
+                <p>Moverse en el transporte público de una ciudad en constante crecimiento suele ser un reto diario. Los usuarios se enfrentan frecuentemente a:</p>
+                <ul>
+                    <li>Incertidumbre de no saber a qué hora pasará su ruta o si el camión viene lleno.</li>
+                    <li>Falta de información clara y accesible en las paradas tradicionales.</li>
+                    <li>Tiempos de espera prolongados y desinformación constante.</li>
+                    <li>Carencia de canales efectivos para reportar incidentes o mala conducta del operador.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="../img/prototipo3.jpeg" alt="Usuarios esperando el autobús" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+    </section>
+
+    <section id="solucion" class="bg-light py-5">
+        <div class="container text-center mt-3 mb-2">
+            <h2 class="fw-bold text-optibus-green mb-4">La Solución que Proponemos</h2>
+            <p class="lead w-75 mx-auto mb-5">Aprovechando tecnologías accesibles, buscamos transformar la parada de autobús en un punto de información interactivo sin requerir inversiones millonarias.</p>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <img src="../img/prototipo1.jpeg" class="card-img-top rounded mb-3" alt="Escaneo QR">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-optibus-gold">Escaneo QR</h5>
+                            <p class="card-text">Integración de códigos QR en las paradas de autobús para acceder a una interfaz con información de rutas y horarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <img src="../img/prototipo4.jpeg" class="card-img-top rounded mb-3" alt="Realidad Aumentada">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-optibus-gold">Realidad Aumentada (RA)</h5>
+                            <p class="card-text">Módulo de realidad aumentada que muestra modelos 3D de las rutas para facilitar la comprensión visual del recorrido en tu entorno.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <img src="../img/busAr2.jpeg" class="card-img-top rounded mb-3" alt="Ubicación en tiempo real">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-optibus-gold">Ubicación en tiempo real</h5>
+                            <p class="card-text">Sistema de seguimiento en tiempo real que permite a los usuarios conocer la ubicación exacta del autobús en cualquier momento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="objetivo" class="container py-5 text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="fw-bold text-optibus-green mb-3">¿Cuál es nuestro objetivo?</h2>
+                <p class="fs-5">Implementar el uso de la Realidad Aumentada para aumentar la certeza de los usuarios a la hora de trasladarse en el transporte público, dentro de la ciudad de León, Guanajuato en un 50%.</p>
+                <p class="text-muted mt-4">Reducimos la incertidumbre del pasajero y sentamos las bases para una infraestructura de movilidad urbana más inteligente, participativa y económicamente sustentable.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-4">
+        <div class="container">
+            <p class="mb-1 fw-bold">Proyecto Integrador: BUS AR</p>
+            <p class="small text-white-50 mb-2s">Desarrollado por: Juan Manuel Corral, Natalia Hernández, Jonathan Palomares, Juan José Ríos, Asarel Torres.</p>
+        </div>
+    </footer>
+    
+    <script src="../js/vue.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

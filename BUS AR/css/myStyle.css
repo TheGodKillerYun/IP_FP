@@ -1,0 +1,56 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    scroll-behavior: smooth;
+}
+
+.bg-optibus-green {
+    background-color: #008f4c !important;
+}
+
+.text-optibus-green {
+    color: #008f4c !important;
+}
+
+.bg-optibus-gold {
+    background-color: #a87b3e !important;
+}
+
+.text-optibus-gold {
+    color: #a87b3e !important;
+}
+
+.btn-optibus-gold {
+    background-color: #a87b3e;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-optibus-gold:hover {
+    background-color: #8c6530;
+    color: #ffffff;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 143, 76, 0.8), rgba(0, 0, 0, 0.7)), url('../img/hero-bg.jpg') center/cover no-repeat;
+    min-height: 70vh;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
